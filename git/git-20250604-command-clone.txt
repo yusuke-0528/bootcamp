@@ -1,0 +1,21 @@
+・git clone
+「git clone」のコマンドは共有レポジトリから参加している個人のローカルレポジトリに複製を行うことができるコード。
+このコマンドのオプションは以下のようなものがある。
+
+・--branch <ブランチ名>　or  -b <ブランチ名>
+→ 指定したブランチだけをクローンする。
+ex) git clone --branch https://github.com
+
+・--depth <数値>
+→ 履歴を最新から指定数だけに制限する。
+ex) git clone --depth 10 https://github.com
+
+・--single-branch
+→ デフォルトブランチまたは指定ブランチだけを取得する。
+
+・--origin <名前>
+→ デフォルトのリモート名を変更する。
+ex) git clone --origin stream https://github.com
+
+・--mirror
+→ ミラー（同じもの）を作成する。
