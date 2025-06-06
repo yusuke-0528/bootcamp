@@ -7,4 +7,3 @@ if [ $number_1 = $number_2 ]; then
 else
   echo "number_1とnumber_2は異なる値である。"
 fi
-
