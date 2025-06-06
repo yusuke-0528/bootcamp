@@ -18,4 +18,3 @@ if [ $sum_numbers -ge 60 ]; then
 else
   echo "あなたの負けです。また挑戦してね！"
 fi
-
