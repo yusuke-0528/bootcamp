@@ -1,6 +1,5 @@
-#課題：「shell script/stdout_out」
-echo "これは、std-script-output.shに含まれるテキストです。"
-number_1=`expr 10 + 100 + 1000`
+#課題：「shell script/using-another-script-output」
+number_1=$((10 * 100 + 1000))
 number_2=$((RANDOM % 10 + 1))
 sum_numbers=$((number_1 * number_2))
 
